@@ -21,8 +21,8 @@ function createTemplte (data) {
         var date = data.date;
         var heading = data.heading;
         content = data.content;
-        var htmlTemplate = '
-            <html>
+        var htmlTemplate = `
+          <html>
             <head>
                 <title>
                    ${title}
@@ -48,7 +48,7 @@ function createTemplte (data) {
                 </div>
             </body>
          </html> 
-         ';
+         `;
 }
 app.get('/article-one', function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'article-one.html')); 
