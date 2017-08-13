@@ -15,25 +15,7 @@ var articles = {
                   This is article one. This is article one. This is article one. This is article one. This is article one.
                   This is article one. This is article one. This is article one. This is article one. This is article one.
               </p>`
-},
-        var articleTwo: {
-            title: "Article-two | Jagadeesh",
-            heading:  "Article two",
-            date: "Aug 13, 2017",
-            content: `
-                  <p> 
-                   This is article two.
-                  </p>`
-    },
-        var articleThree: {
-            title: "Article-three | Jagadeesh",
-            heading:  "Article three",
-            date: "Aug 13, 2017",
-            content: `
-                  <p>
-                   This is article three.
-                  </p>`
-        }
+}
 };
 
 function createTemplate (data) {
