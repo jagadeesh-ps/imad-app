@@ -1,4 +1,4 @@
-console.log('Loaded!');
+/*console.log('Loaded!');
 
 //add new value to the element
 var element = document.getElementById("main-text");
@@ -13,4 +13,4 @@ function marginRight () {
 img.onclick = function () {
   //  img.style.marginLeft = '100px';
   var interval = setInterval(marginRight, 50);
-};
+};  */
