@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 //add new value to the element
 var element = document.getElementById("main-text");
-element.innerHTML = "New Value";
+//element.innerHTML = "New Value";
 
 var img = document.getElementById("madi");
 var marginLeft = 0;
